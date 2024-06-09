@@ -16,6 +16,7 @@ locals {
 
 module db_tunnel {
   source       = "flaupretre/tunnel/ssh"
+  version      = "2.0.0"
 #  source       = "/var/work/terraform-ssh-tunnel"
 
   create = local.create
