@@ -25,6 +25,10 @@ variable password {
   type = string
 }
 
+variable ssh_key_file_path {
+  type = string
+}
+
 # Format: map of :
 # <db_name> = {
 #    create = true
